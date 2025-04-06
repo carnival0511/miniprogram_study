@@ -1,0 +1,96 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@/components/uni-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/data/index",
+			"style": {
+				"navigationBarTitleText": "数据"
+			}
+		},
+		{
+			"path": "pages/device/index",
+			"style": {
+				"navigationBarTitleText": "设备"
+			}
+		},
+		{
+			"path": "pages/plot/index",
+			"style": {
+				"navigationBarTitleText": "地块"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+    }
+	],
+	"subPackages": [
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "UniApp Demo",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/_home.png",
+				"selectedIconPath": "static/tabbar/_home _select.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/data/index",
+				"iconPath": "static/tabbar/_data_file.png",
+				"selectedIconPath": "static/tabbar/_data_file_select.png",
+				"text": "数据"
+			},
+			{
+				"pagePath": "pages/device/index",
+				"iconPath": "static/tabbar/_devices.png",
+				"selectedIconPath": "static/tabbar/_devices_select.png",
+				"text": "设备"
+			},
+			{
+				"pagePath": "pages/plot/index",
+				"iconPath": "static/tabbar/_square.png",
+				"selectedIconPath": "static/tabbar/_square_select.png",
+				"text": "地块"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/tabbar/_people.png",
+				"selectedIconPath": "static/tabbar/_people_select.png",
+				"text": "我的"
+			}
+		]
+	}
+}
